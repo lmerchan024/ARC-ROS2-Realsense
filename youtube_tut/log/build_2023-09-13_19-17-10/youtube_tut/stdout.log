@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing youtube_tut.egg-info/PKG-INFO
+writing dependency_links to youtube_tut.egg-info/dependency_links.txt
+writing entry points to youtube_tut.egg-info/entry_points.txt
+writing requirements to youtube_tut.egg-info/requires.txt
+writing top-level names to youtube_tut.egg-info/top_level.txt
+reading manifest file 'youtube_tut.egg-info/SOURCES.txt'
+writing manifest file 'youtube_tut.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/python3.10/site-packages/youtube-tut.egg-link (link to .)
+Installing intel_pub script to /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/youtube_tut
+Installing intel_sub script to /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/youtube_tut
+
+Installed /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut
+running install_data

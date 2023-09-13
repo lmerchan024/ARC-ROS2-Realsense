@@ -1,0 +1,9 @@
+source;share/youtube_tut/hook/pythonpath.ps1
+source;share/youtube_tut/hook/pythonpath.dsv
+source;share/youtube_tut/hook/pythonpath.sh
+source;share/youtube_tut/hook/ament_prefix_path.ps1
+source;share/youtube_tut/hook/ament_prefix_path.dsv
+source;share/youtube_tut/hook/ament_prefix_path.sh
+source;../../build/youtube_tut/share/youtube_tut/hook/pythonpath_develop.ps1
+source;../../build/youtube_tut/share/youtube_tut/hook/pythonpath_develop.dsv
+source;../../build/youtube_tut/share/youtube_tut/hook/pythonpath_develop.sh

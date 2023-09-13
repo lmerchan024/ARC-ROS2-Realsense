@@ -1,0 +1,51 @@
+[0.938s] Invoking command in '/home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut': PYTHONPATH=/home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut/prefix_override:/home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut/build --no-deps install_data
+[1.257s] running develop
+[1.266s] /usr/local/lib/python3.10/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.266s] !!
+[1.266s] 
+[1.266s]         ********************************************************************************
+[1.266s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.266s]         Instead, use pypa/build, pypa/installer or other
+[1.266s]         standards-based tools.
+[1.267s] 
+[1.267s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.267s]         ********************************************************************************
+[1.267s] 
+[1.267s] !!
+[1.267s]   easy_install.initialize_options(self)
+[1.312s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.312s] !!
+[1.312s] 
+[1.312s]         ********************************************************************************
+[1.312s]         Please avoid running ``setup.py`` directly.
+[1.312s]         Instead, use pypa/build, pypa/installer or other
+[1.312s]         standards-based tools.
+[1.312s] 
+[1.312s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.312s]         ********************************************************************************
+[1.312s] 
+[1.312s] !!
+[1.313s]   self.initialize_options()
+[1.517s] running egg_info
+[1.517s] creating youtube_tut.egg-info
+[1.540s] writing youtube_tut.egg-info/PKG-INFO
+[1.540s] writing dependency_links to youtube_tut.egg-info/dependency_links.txt
+[1.540s] writing entry points to youtube_tut.egg-info/entry_points.txt
+[1.540s] writing requirements to youtube_tut.egg-info/requires.txt
+[1.540s] writing top-level names to youtube_tut.egg-info/top_level.txt
+[1.540s] writing manifest file 'youtube_tut.egg-info/SOURCES.txt'
+[1.576s] reading manifest file 'youtube_tut.egg-info/SOURCES.txt'
+[1.577s] writing manifest file 'youtube_tut.egg-info/SOURCES.txt'
+[1.595s] running build_ext
+[1.595s] Creating /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/python3.10/site-packages/youtube-tut.egg-link (link to .)
+[1.596s] Installing intel_pub script to /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/youtube_tut
+[1.596s] Installing intel_sub script to /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/youtube_tut
+[1.596s] 
+[1.596s] Installed /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut
+[1.596s] running install_data
+[1.596s] creating /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/share/ament_index
+[1.596s] creating /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/share/ament_index/resource_index
+[1.596s] creating /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/share/ament_index/resource_index/packages
+[1.597s] copying resource/youtube_tut -> /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/share/ament_index/resource_index/packages
+[1.597s] copying package.xml -> /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/share/youtube_tut
+[1.621s] Invoked command in '/home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut' returned '0': PYTHONPATH=/home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut/prefix_override:/home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/install/youtube_tut/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/robotics/Projects/workspaces/ros2_ws/src/src/youtube_tut/build/youtube_tut/build --no-deps install_data
