@@ -1,0 +1,3 @@
+[console_scripts]
+intel_pub = src.intel_pub:main
+intel_sub = src.intel_sub:main

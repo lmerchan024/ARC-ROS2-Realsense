@@ -1,3 +1,0 @@
-[console_scripts]
-intel_pub = youtube_tut.intel_pub:main
-intel_sub = youtube_tut.intel_sub:main

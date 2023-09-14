@@ -1,0 +1,35 @@
+[0.764s] Invoking command in '/home/robotics/Projects/cleanversion/src/realsense': PYTHONPATH=/home/robotics/Projects/cleanversion/build/realsense/prefix_override:/home/robotics/Projects/cleanversion/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/realsense build --build-base /home/robotics/Projects/cleanversion/build/realsense/build install --record /home/robotics/Projects/cleanversion/build/realsense/install.log --single-version-externally-managed
+[0.966s] running egg_info
+[0.983s] writing ../../build/realsense/realsense.egg-info/PKG-INFO
+[0.983s] writing dependency_links to ../../build/realsense/realsense.egg-info/dependency_links.txt
+[0.983s] writing entry points to ../../build/realsense/realsense.egg-info/entry_points.txt
+[0.983s] writing requirements to ../../build/realsense/realsense.egg-info/requires.txt
+[0.984s] writing top-level names to ../../build/realsense/realsense.egg-info/top_level.txt
+[1.019s] reading manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[1.020s] writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[1.020s] running build
+[1.020s] running build_py
+[1.020s] running install
+[1.020s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.020s] !!
+[1.020s] 
+[1.020s]         ********************************************************************************
+[1.021s]         Please avoid running ``setup.py`` directly.
+[1.021s]         Instead, use pypa/build, pypa/installer or other
+[1.021s]         standards-based tools.
+[1.021s] 
+[1.021s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.021s]         ********************************************************************************
+[1.021s] 
+[1.021s] !!
+[1.021s]   self.initialize_options()
+[1.024s] running install_lib
+[1.042s] running install_data
+[1.059s] running install_egg_info
+[1.077s] removing '/home/robotics/Projects/cleanversion/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info' (and everything under it)
+[1.077s] Copying ../../build/realsense/realsense.egg-info to /home/robotics/Projects/cleanversion/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info
+[1.077s] running install_scripts
+[1.224s] Installing intel_pub script to /home/robotics/Projects/cleanversion/install/realsense/lib/realsense
+[1.224s] Installing intel_sub script to /home/robotics/Projects/cleanversion/install/realsense/lib/realsense
+[1.224s] writing list of installed files to '/home/robotics/Projects/cleanversion/build/realsense/install.log'
+[1.241s] Invoked command in '/home/robotics/Projects/cleanversion/src/realsense' returned '0': PYTHONPATH=/home/robotics/Projects/cleanversion/build/realsense/prefix_override:/home/robotics/Projects/cleanversion/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/realsense build --build-base /home/robotics/Projects/cleanversion/build/realsense/build install --record /home/robotics/Projects/cleanversion/build/realsense/install.log --single-version-externally-managed
