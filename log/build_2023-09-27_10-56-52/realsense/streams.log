@@ -1,0 +1,70 @@
+[0.642s] Invoking command in '/home/robotics/Projects/workspaces/rs-cam-nodes/src/realsense': PYTHONPATH=/home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/prefix_override:/home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/realsense build --build-base /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build install --record /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/install.log --single-version-externally-managed
+[0.767s] running egg_info
+[0.768s] creating ../../build/realsense/realsense.egg-info
+[0.776s] writing ../../build/realsense/realsense.egg-info/PKG-INFO
+[0.776s] writing dependency_links to ../../build/realsense/realsense.egg-info/dependency_links.txt
+[0.776s] writing entry points to ../../build/realsense/realsense.egg-info/entry_points.txt
+[0.776s] writing requirements to ../../build/realsense/realsense.egg-info/requires.txt
+[0.777s] writing top-level names to ../../build/realsense/realsense.egg-info/top_level.txt
+[0.777s] writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.795s] reading manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.795s] writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+[0.795s] running build
+[0.795s] running build_py
+[0.795s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build
+[0.795s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib
+[0.795s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.795s] copying realsense/intel_sub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.795s] copying realsense/__init__.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.795s] copying realsense/pointcloud_visualizer_sub_node.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.795s] copying realsense/intel_pub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.795s] copying realsense/intel_pub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.795s] copying realsense/intel_sub3.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.796s] copying realsense/intel_sub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+[0.796s] running install
+[0.804s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.804s] !!
+[0.804s] 
+[0.804s]         ********************************************************************************
+[0.804s]         Please avoid running ``setup.py`` directly.
+[0.804s]         Instead, use pypa/build, pypa/installer or other
+[0.804s]         standards-based tools.
+[0.804s] 
+[0.804s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.804s]         ********************************************************************************
+[0.804s] 
+[0.804s] !!
+[0.804s]   self.initialize_options()
+[0.807s] running install_lib
+[0.816s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_sub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/__init__.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/pointcloud_visualizer_sub_node.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_pub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_pub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_sub3.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_sub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+[0.816s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_sub.py to intel_sub.cpython-310.pyc
+[0.816s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/__init__.py to __init__.cpython-310.pyc
+[0.816s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/pointcloud_visualizer_sub_node.py to pointcloud_visualizer_sub_node.cpython-310.pyc
+[0.817s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_pub2.py to intel_pub2.cpython-310.pyc
+[0.817s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_pub.py to intel_pub.cpython-310.pyc
+[0.818s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_sub3.py to intel_sub3.cpython-310.pyc
+[0.818s] byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_sub2.py to intel_sub2.cpython-310.pyc
+[0.818s] running install_data
+[0.827s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index
+[0.827s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index/resource_index
+[0.827s] creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index/resource_index/packages
+[0.828s] copying resource/realsense -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index/resource_index/packages
+[0.828s] copying package.xml -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/realsense
+[0.828s] running install_egg_info
+[0.837s] Copying ../../build/realsense/realsense.egg-info to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info
+[0.838s] running install_scripts
+[0.924s] Installing intel_pub script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+[0.924s] Installing intel_pub2 script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+[0.924s] Installing intel_sub script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+[0.924s] Installing intel_sub2 script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+[0.924s] Installing intel_sub3 script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+[0.924s] Installing pointcloud_visualizer_sub_node script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+[0.924s] writing list of installed files to '/home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/install.log'
+[0.938s] Invoked command in '/home/robotics/Projects/workspaces/rs-cam-nodes/src/realsense' returned '0': PYTHONPATH=/home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/prefix_override:/home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/realsense build --build-base /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build install --record /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/install.log --single-version-externally-managed

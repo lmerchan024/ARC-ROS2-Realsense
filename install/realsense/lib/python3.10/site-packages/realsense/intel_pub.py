@@ -4,6 +4,7 @@ from sensor_msgs.msg import Image #import built-in Image msg type that the node 
 from cv_bridge import CvBridge #import the CvBridge class from the cv_bridge pkg. which opffers methods to facilitate conversion, read below
 #primary role of cv_bridge is to enable the conversion of ROS image msg, from sensor_imgs.msg, to OpenCV image formats and vice versa
 #okjdmnaskjhnkln dfasmo;lifas
+
 import cv2
 import pyrealsense2 as rs
 import numpy as np
@@ -11,8 +12,8 @@ import numpy as np
 class IntelPublisher(Node):
     def __init__(self):
         super().__init__("intel_publisher")
-        self.intel_publisher_rgb = self.create_publisher(Image, "rgb_frames", 10) #data type is 'Image', topic name='rgb frames', qeue list of 10
-        #send frames?
+        self.intel_publisher_rgb = self.create_publisher(Image, "rgb_frames", 10) #data type is 'Image', topic name='rgb frames', qeue list of 10 send frames?
+
         timer_period = 0.05 #every 0.05sec, run the code back that will send a frame
         self.br_rgb = CvBridge() #convert from CvBridge image format to sendor_msgs.msg Image format
 

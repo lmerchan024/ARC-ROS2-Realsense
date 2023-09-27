@@ -10,7 +10,11 @@ setup.py
 ../../build/realsense/realsense.egg-info/zip-safe
 realsense/__init__.py
 realsense/intel_pub.py
+realsense/intel_pub2.py
 realsense/intel_sub.py
+realsense/intel_sub2.py
+realsense/intel_sub3.py
+realsense/pointcloud_visualizer_sub_node.py
 resource/realsense
 test/test_copyright.py
 test/test_flake8.py

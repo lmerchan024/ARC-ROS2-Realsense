@@ -1,0 +1,68 @@
+running egg_info
+creating ../../build/realsense/realsense.egg-info
+writing ../../build/realsense/realsense.egg-info/PKG-INFO
+writing dependency_links to ../../build/realsense/realsense.egg-info/dependency_links.txt
+writing entry points to ../../build/realsense/realsense.egg-info/entry_points.txt
+writing requirements to ../../build/realsense/realsense.egg-info/requires.txt
+writing top-level names to ../../build/realsense/realsense.egg-info/top_level.txt
+writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+reading manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+writing manifest file '../../build/realsense/realsense.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/intel_sub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/__init__.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/pointcloud_visualizer_sub_node.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/intel_pub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/intel_pub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/intel_sub3.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+copying realsense/intel_sub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_sub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/__init__.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/pointcloud_visualizer_sub_node.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_pub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_pub.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_sub3.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+copying /home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/build/lib/realsense/intel_sub2.py -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_sub.py to intel_sub.cpython-310.pyc
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/pointcloud_visualizer_sub_node.py to pointcloud_visualizer_sub_node.cpython-310.pyc
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_pub2.py to intel_pub2.cpython-310.pyc
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_pub.py to intel_pub.cpython-310.pyc
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_sub3.py to intel_sub3.cpython-310.pyc
+byte-compiling /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense/intel_sub2.py to intel_sub2.cpython-310.pyc
+running install_data
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index/resource_index
+creating /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index/resource_index/packages
+copying resource/realsense -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/ament_index/resource_index/packages
+copying package.xml -> /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/share/realsense
+running install_egg_info
+Copying ../../build/realsense/realsense.egg-info to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/python3.10/site-packages/realsense-0.0.0-py3.10.egg-info
+running install_scripts
+Installing intel_pub script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+Installing intel_pub2 script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+Installing intel_sub script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+Installing intel_sub2 script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+Installing intel_sub3 script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+Installing pointcloud_visualizer_sub_node script to /home/robotics/Projects/workspaces/rs-cam-nodes/install/realsense/lib/realsense
+writing list of installed files to '/home/robotics/Projects/workspaces/rs-cam-nodes/build/realsense/install.log'

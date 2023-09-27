@@ -20,10 +20,12 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "intel_pub=src.intel_pub:main",
-            "intel_sub=src.intel_sub:main",
-            "intel_pub2=src.intel_pub:main",
-            "intel_sub2=src.intel_sub:main"
+            "intel_pub=realsense.intel_pub:main",
+            "intel_sub=realsense.intel_sub:main",
+            "intel_pub2=realsense.intel_pub2:main",
+            "intel_sub2=realsense.intel_sub2:main",
+            "pointcloud_visualizer_sub_node=realsense.pointcloud_visualizer_sub_node:main",
+            "intel_sub3=realsense.intel_sub3:main"
         ],
     },
 )
