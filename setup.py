@@ -32,6 +32,15 @@ setup(
             'numpyRos2Converter=py_pubsub.numpy_to_ros2_pointcloud_template_script:main',
             'ros2NumpyConverter=py_pubsub.ros2_pointcloud_to_numpy_template_script:main',
             'o3dNumpyConverter=py_pubsub.o3d_pointcloud_to_numpy_template_script:main',
+
+            'ros2_cylinder_detector=py_pubsub.ros2_cylinder_detector:main',
+            'ros2_pointcloud_to_numpy_template_script_ver2=py_pubsub.ros2_pointcloud_to_numpy_template_script_ver2:main',
+            'ros2_pointcloud_to_numpy_template_script_ver3=py_pubsub.ros2_pointcloud_to_numpy_template_script_ver3:main',
+            'ros2_pointcloud_to_numpy_template_script_ver4=py_pubsub.ros2_pointcloud_to_numpy_template_script_ver4:main',
+            'ros2_pointcloud_to_numpy_template_script_ver5=py_pubsub.ros2_pointcloud_to_numpy_template_script_ver5:main',
+            'ros2_pointcloud_to_numpy_template_script_ver4b=py_pubsub.ros2_pointcloud_to_numpy_template_script_ver4b:main',
+
+            'plane_getter=py_pubsub.plane_getter:main',
         ],
     },
 )
